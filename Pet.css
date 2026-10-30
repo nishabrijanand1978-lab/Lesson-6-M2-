@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcoral;
+    padding: 65px 30px 30px 30px;
+    min-height: 1800px;
+}
+
+h1, h2 {
+    color: rgb(227, 56, 85);
+    font-size: 50px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(100, 174, 216);
+    color: rgb(43, 61, 224);
+    padding: 14px 20px;
+}
+
+.list-item {
+    background-color: aquamarine;
+    border: 2px solid midnightblue;
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+
+.special-note {
+    position: relative;
+    left: 30px;
+    background-color: gold;
+    padding: 10px 20px;
+}
+
+.pet-card {
+    background-color: rgb(234, 234, 117);
+    border: 3px solid rgb(234, 234, 67);
+}
+
+.badge {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    background-color: rgba(50, 127, 62, 0.945);
+    color: rgb(6, 66, 6);
+    padding: 4px 8px;
+}
+
+.section-label {
+    position: sticky;
+    top: 55px;
+    background-color: rgb(191, 101, 216);
+    color: rgb(151, 40, 182);
+    padding: 10px 20px;
+    margin: 15px 0 8px;
+}
+
+.animation {
+    height: 500px;
+    width: 750px;
+    animation: slide 3s alternate infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(650px);
+    }
+}
